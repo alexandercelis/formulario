@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/formulario/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    
     <title>Formulario</title>
 </head>
 <body>
@@ -41,15 +42,15 @@
           <div class="form-group">
             <label id="number-label" for="number"
               >Edad<span class="clue">(opcional)</span></label
-            >
+              >
             <input
               type="number"
               name="age"
               id="number"
-              min="10"
+              min="1"
               max="99"
               class="form-control"
-              placeholder="Age"
+              placeholder="Edad"
             />
           </div>
           <div class="form-group">
@@ -73,19 +74,18 @@
                 type="radio"
                 class="input-radio"
                 checked
-              />Por supuesto</label
-            >
+              />Por supuesto</label>
+
             <label>
               <input
                 name="user-recommend"
                 value="maybe"
                 type="radio"
                 class="input-radio"
-              />Talvez</label
-            >
+              />Talvez</label>
       
-            <label
-              ><input
+            <label>
+              <input
                 name="user-recommend"
                 value="not-sure"
                 type="radio"
@@ -220,5 +220,8 @@
           </div>
         </form>
       </div>
+
+      <script src="script/script.js" ></script>
+
 </body>
 </html>
